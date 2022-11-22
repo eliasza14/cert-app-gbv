@@ -96,7 +96,7 @@ def main():
                             # to be useless here 
         mydb = client["iamdb"]
 
-        mycol = mydb["users"]   
+        mycol = mydb["usergbv"]   
         item_details= mycol.find()
         list_cur=[]
         for item in item_details:
