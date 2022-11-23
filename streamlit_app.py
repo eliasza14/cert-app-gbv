@@ -126,7 +126,7 @@ def main():
 
             # right.write("Here's the template we'll be using:")
 
-            right.image("https://cmtprooptiki.gr/api/certificatefinal.jpg", width=300)
+            right.image("https://cmtprooptiki.gr/api/certificate.jpg", width=300)
 
             env = Environment(loader=FileSystemLoader("."), autoescape=select_autoescape())
             template = env.get_template("template.html")
