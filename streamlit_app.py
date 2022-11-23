@@ -80,6 +80,7 @@ def main():
     st.markdown(newhtml,unsafe_allow_html=True)
     html_logo ="<img style='display:block; margin-left:auto; margin-right:auto; text-align:center;' src='https://gbvcyclades.epapsy.gr/wp-content/uploads/2022/05/logoandtext.png'  width=200 >"
     st.markdown(html_logo, unsafe_allow_html=True)
+    st.write("WORKING git")
 
 
     title = st.text_input('Email', '')
