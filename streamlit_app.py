@@ -154,7 +154,7 @@ def main():
             # st.write(html, unsafe_allow_html=True)
             # st.write("")
             right.download_button(
-                "⬇️ Παραλαβή πιστοποιητικού",
+                "⬇️ Παραλαβή βεβαίωσης παρακολούθησης",
                 data=pdf,
                 file_name="diploma.pdf",
                 mime="application/octet-stream",
